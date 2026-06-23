@@ -5777,17 +5777,19 @@ button.animate-btn::after,
 
 .featured-works-item .content .bot {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .featured-works-item .content .bot .heading {
-  width: 39.765%;
+  width: 100%;
 }
 
 .featured-works-item .content .grid-text {
-  width: 58.22%;
+  width: 100%;
   display: flex;
-  gap: 12px 40px;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .featured-works-item .content .grid-text .item:nth-child(1) {
@@ -11272,3 +11274,5 @@ footer .footer-bottom::before {
 .section-hero .content-wrap .text {
   color: rgba(255, 255, 255, 0.9) !important;
 }
+
+
